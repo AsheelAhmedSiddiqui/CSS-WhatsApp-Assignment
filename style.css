@@ -48,6 +48,10 @@ a {
   border-radius: 50%;
 }
 
+.side-image img:hover {
+  cursor: pointer;
+}
+
 .head-icons {
   display: flex;
   gap: 20px;
@@ -56,6 +60,10 @@ a {
 .head-icons i {
   color: #fff;
   font-size: 18px;
+}
+
+.head-icons i:hover {
+  cursor: pointer;
 }
 
 .search-bar {
@@ -89,6 +97,10 @@ a {
   align-items: center;
   gap: 15px;
   font-size: 18px;
+}
+
+.archive:hover {
+  cursor: pointer;
 }
 
 .archive span {
